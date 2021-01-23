@@ -232,44 +232,49 @@ public class myAnswers {
 	  
 	  
 	  public static void eighthQuestion () {
+		       int count = 8;
+		       int space = 0;	
+		  		for (int i =1 ; i<=count ; i++) {
+		  			space = count-i;
+		  			
+		  			for(int s=1 ; s<=space; s++) {
+		  				System.out.print(" ");
+		  			}
+		  			
+		  			
+		  			for (int j=1;j<=i;j++) {
+		  				
+		  				System.out.print(j+" ");
+		  			}
+		  			
+		  			System.out.println();
+		  		}
+		  			
 		  
-				  int rows = 8, k = 1;
-		
-				    for (int i = 1; i <= rows; ++i, k = 1) {
-				      
-				      for (int space = 1; space <=rows - i; ++space) {
-				        System.out.print("  ");
-				      }
-				       
-				      
-				      while (k <=i) {
-				        
-				        System.out.print(k+" "); ++k;
-				      }
-		
-				      System.out.println();
-				      
-				    }
+				
 				    
 		}
 	  
 	  
 	  public static void ninethQuestion () {
 		  
-			  int rows = 9, k = 0;
-	
-			    for (int i = 1; i <= rows; ++i, k = 0) {
-			      for (int space = 1; space <= rows - i; ++space) {
-			        System.out.print("  ");
-			      }
-	
-			      while (k != 2 * i - 1) {
-			        System.out.print(i+" ");
-			        ++k;
-			      }
-	
-			      System.out.println();
-			    }
+		  int count = 9;
+	       int space = 0;	
+	  		for (int i =1 ; i<=count ; i++) {
+	  			space = count-i;
+	  			
+	  			for(int s=1 ; s<=space; s++) {
+	  				System.out.print(" ");
+	  			}
+	  			
+	  			
+	  			for (int j=1;j<=i;j++) {
+	  				
+	  				System.out.print(i+" ");
+	  			}
+	  			
+	  			System.out.println();
+	  		}
 	   }
 	  
 	  
